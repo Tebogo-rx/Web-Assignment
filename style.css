@@ -1,0 +1,103 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+  }
+  
+  .hero-section {
+    background-image: url('https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .green {
+    background-color: #22c55e;
+    color: white;
+  }
+  
+  .grey {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .main-content {
+    text-align: center;
+    margin-top: 10%;
+    padding: 0 20px;
+  }
+  
+  .intro {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .animated-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 40px;
+    margin: 10px 0;
+    color: #ffd700;
+  }
+  
+  .description {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #eee;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
