@@ -1,7 +1,8 @@
+// Typing animation
 const phrases = [
-    "Web Dev",
-    "App Dev",
-    "UI UX Dev",
+    "Web Developer",
+    "App Developer",
+    "UI UX Designer",
     "Full Stack"
   ];
   
@@ -31,4 +32,12 @@ const phrases = [
   }
   
   type();
+  
+  // Hamburger Menu Toggle
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+  
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
   

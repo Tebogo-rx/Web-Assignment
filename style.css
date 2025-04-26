@@ -1,3 +1,4 @@
+/* Reset */
 body, html {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@ body, html {
     color: white;
   }
   
+  /* Hero Section */
   .hero-section {
     background-image: url('https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
@@ -12,8 +14,10 @@ body, html {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
   }
   
+  /* Header */
   header {
     background: rgba(0, 0, 0, 0.7);
     padding: 15px 40px;
@@ -21,6 +25,8 @@ body, html {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 1000;
   }
   
   .logo {
@@ -28,8 +34,13 @@ body, html {
     font-weight: bold;
   }
   
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
   nav a {
-    margin: 0 10px;
     text-decoration: none;
     color: white;
     font-weight: 500;
@@ -37,6 +48,14 @@ body, html {
   
   nav a:hover {
     text-decoration: underline;
+  }
+  
+  /* Hamburger */
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
   }
   
   .header-icons {
@@ -63,10 +82,13 @@ body, html {
     color: black;
   }
   
+  /* Main Content */
   .main-content {
-    text-align: center;
+    text-align: left;
+    margin-left: 100px;
     margin-top: 10%;
     padding: 0 20px;
+    max-width: 600px;
   }
   
   .intro {
@@ -82,22 +104,86 @@ body, html {
   .animated-text {
     font-size: 1.5rem;
     font-weight: bold;
-    height: 40px;
+    height: 50px;
     margin: 10px 0;
-    color: #ffd700;
+    color: #ffff;
   }
   
   .description {
     font-size: 1rem;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 20px 0;
     color: #eee;
   }
   
   .buttons {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15px;
+  }
+  
+/* Sidebar */
+.sidebar {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .sidebar .card {
+    background: #111;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .sidebar .card span {
+    font-size: 1.2rem;
+  }
+  
+  .sidebar .card p {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav {
+      display: none;
+      flex-direction: column;
+      background: rgba(0, 0, 0, 0.9);
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      padding: 20px;
+    }
+  
+    nav.show {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .header-icons {
+      display: none;
+    }
+  
+    .sidebar {
+      display: none;
+    }
   }
   
