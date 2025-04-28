@@ -12,11 +12,11 @@ The main sections of this portfolio are:
 
 - **About**: provides a summary concerning various services he can offer.
 
-His ***contact information***, various ***social networks accounts****, and an ***uploaded CV*** are displayed and available to whoever want to get in touch with him .
+His ***contact information***, various ***social networks accounts***, and an ***uploaded CV*** are displayed and available to whoever wants to get in touch with him .
 
 - **Services & Skills** :
  
-- **Achievements, Appraisals and REcognitions**: 
+- **Achievements, Appraisals and Recognitions**: 
 
 
 ## Technologies Used:
