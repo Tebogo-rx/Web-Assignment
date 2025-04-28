@@ -307,6 +307,7 @@ padding: 8px 15px;
 
 /* ABOUT Section Styling */
 .about {
+  background-color: #f4f4f4; /* Replace with your desired color */
   padding: 4rem 2rem;
   margin: 4rem auto;
   max-width: 1200px;
@@ -318,8 +319,8 @@ padding: 8px 15px;
   animation: fadeUp 1.5s ease forwards;
   opacity: 0;
   transform: translateY(50px);
-  background: #ffffff;
 }
+
 
 @keyframes fadeUp {
   to {
