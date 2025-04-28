@@ -8,7 +8,7 @@ body, html {
 
 /* Hero Section */
 .hero-section {
-  background-image: url('https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?auto=format&fit=crop&w=1950&q=80');
+  background-image: url('images/laptop.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -362,13 +362,39 @@ padding: 8px 15px;
   color: #0c21dd;
 }
 
-.about-main-bio h3 {
+.about-main-bio h6 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  color: #707070;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.about-main-bio h3{
+  font-size: 32px !important;
+  line-height: 40px;
+}
+
+
+.about-main-bio p {
+  color: #040404;
+  font-size: 1.1rem;
+  line-height: 1.8;
+ }
+ 
+ .about-main-bio p strong {
+  color: #0c21dd;
+ }
+ 
+ .about-main-bio h3 {
   font-size: 2rem;
   color: #0e0e0e;
   margin-top: 2rem;
   margin-bottom: 1rem;
-}
-
+ }
 .about-main-bio ul {
   list-style: none;
   padding-left: 0;
