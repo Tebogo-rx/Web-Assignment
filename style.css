@@ -187,3 +187,16 @@ body, html {
     }
   }
   
+  /* Skills link */
+  .skills-icon{
+    width: 25px;
+    height: 25px;
+   ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+
+
+  }
