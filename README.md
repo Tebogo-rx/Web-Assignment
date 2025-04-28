@@ -37,4 +37,3 @@ His ***contact information***, various ***social networks accounts***, and an **
 * Duncan Zevai
 * Clarence Sithole
 * Tebogo Ranuga
-*
