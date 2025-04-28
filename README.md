@@ -12,7 +12,7 @@ The main sections of this portfolio are:
 
 - **About**: provides a summary concerning various services he can offer.
 
-His contact information, various social media accounts, and an uploaded CV are displayed and available to whoever want to get in touch with him .
+His ***contact information***, various ***social networks accounts****, and an ***uploaded CV*** are displayed and available to whoever want to get in touch with him .
 
 - **Services & Skills** :
  
@@ -22,12 +22,12 @@ His contact information, various social media accounts, and an uploaded CV are d
 ## Technologies Used:
 
 
-HTML5 semantic markup
-* CSS
-* JavaScript
+*  **HTML5** semantic markup
+*  **CSS**
+*  **JavaScript**
 
-**Tools used**:
+## Tools used:
 
-* GitHub Pages (Hosting)
-* Git (Version Control)
+* **GitHub**
+* **Git** (Version Control)
 
