@@ -31,3 +31,9 @@ His ***contact information***, various ***social networks accounts***, and an **
 * **GitHub**
 * **Git** (Version Control)
 
+## Team Members
+* Nancy Akoth
+* Usanase Makala
+* Duncan Zevai
+* Clarence Sithole
+* Tebogo Ranuga
