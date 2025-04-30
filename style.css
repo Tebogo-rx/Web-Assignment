@@ -102,7 +102,7 @@ nav a:hover {
   color: #22c55e;
 }
 
-
+/* Buttons */
 .btn {
   padding: 10px 20px;
   border: none;
@@ -205,7 +205,6 @@ nav a:hover {
   font-size: 0.7rem;
 }
 
-
 /* Responsive */
 @media (max-width: 768px) {
   nav {
@@ -236,7 +235,7 @@ nav a:hover {
   }
 }
 
-  /* Dark Mode Styles */
+/* Dark Mode */
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
@@ -257,193 +256,140 @@ body.dark-mode .sidebar .card {
 }
 
 body.dark-mode .green {
-  background-color: #22c55e; 
+  background-color: #22c55e;
 }
 
 body.dark-mode .grey {
-  background-color: #555; 
+  background-color: #555;
   color: white;
 }
 
 body.dark-mode .animated-text {
-  -webkit-text-stroke: 1px #22c55e; 
+  -webkit-text-stroke: 1px #22c55e;
 }
 
-/* Search Bar */
-.search-bar {
-position: absolute;
-top: 80px;
-right: 100px;
-background: rgba(0,0,0,0.8);
-padding: 10px;
-border-radius: 8px;
-z-index: 1001;
-display: flex;
-align-items: center;
-gap: 10px;
-opacity: 0;
-transform: translateY(-20px);
-pointer-events: none;
-transition: all 0.4s ease;
-}
-
-.search-bar.active {
-opacity: 1;
-transform: translateY(0);
-pointer-events: auto;
-}
-
-.search-bar input {
-padding: 8px;
-border: none;
-border-radius: 5px;
-outline: none;
-font-size: 1rem;
-}
-
-#search-submit {
-padding: 8px 15px;
-}
-
-/* ABOUT Section Styling */
+/* ABOUT Section */
 .about {
-/* background: #ffffff;*/
- padding: 4rem 2rem;
- margin: 4rem auto;
- max-width: 1200px;
- border-radius: 20px;
- box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
- display: flex;
- flex-direction: column;
- gap: 2.5rem;
- animation: fadeUp 1.5s ease forwards;
- opacity: 0;
- transform: translateY(50px);
+  padding: 4rem 2rem;
+  margin: 4rem auto;
+  max-width: 1200px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  animation: fadeUp 1.5s ease forwards;
+  opacity: 0;
+  transform: translateY(50px);
 }
 
 @keyframes fadeUp {
- to {
-   opacity: 1;
-   transform: translateY(0);
- }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .about-main {
- display: flex;
- flex-direction: column;
- gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .about-main-bio h2 {
- font-size: 2.8rem;
- color: #030303;
- font-weight: 700;
- margin-bottom: 1rem;
- text-transform: uppercase;
- letter-spacing: 2px;
+  font-size: 2.8rem;
+  color: #030303;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .about-main-bio p {
- color: #040404;
- font-size: 1.1rem;
- line-height: 1.8;
-}
-
-.about-main-bio p strong {
- color: #0c21dd;
+  color: #040404;
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
 
 .about-main-bio h3 {
- font-size: 2rem;
- color: #0e0e0e;
- margin-top: 2rem;
- margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #0e0e0e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about-main-bio ul {
- list-style: none;
- padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 .about-main-bio ul li {
- margin-bottom: 0.8rem;
- position: relative;
- padding-left: 2rem;
- font-size: 1.1rem;
- color: #0b0b0b;
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+  color: #0b0b0b;
 }
 
 .about-main-bio ul li::before {
- content: "✔";
- position: absolute;
- left: 0;
- color: #0621ab;
- font-size: 1.2rem;
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #0621ab;
+  font-size: 1.2rem;
 }
 
 .about-infos {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
 }
 
 .about-infos label {
- font-weight: 600;
- color: #0b0b0b;
- font-size: 1rem;
+  font-weight: 600;
+  color: #0b0b0b;
+  font-size: 1rem;
 }
 
 .about-infos p {
- margin-top: 0.3rem;
- color: #0a0a0a;
- font-size: 1rem;
+  margin-top: 0.3rem;
+  color: #0a0a0a;
+  font-size: 1rem;
 }
 
 .about-socials {
- margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .about-socials label {
- font-weight: 700;
- color: #070707;
- font-size: 1.2rem;
+  font-weight: 700;
+  color: #070707;
+  font-size: 1.2rem;
 }
 
 .about-social-links {
- margin-top: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .about-social-links a {
- text-decoration: none;
- color: #1a08ba;
- font-weight: bold;
- margin-right: 1rem;
- font-size: 1.1rem;
- transition: color 0.3s ease;
+  text-decoration: none;
+  color: #1a08ba;
+  font-weight: bold;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 .about-social-links a:hover {
- color: #388E3C;
+  color: #388E3C;
 }
 
 .about-buttons {
- margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .about-buttons .btn {
- margin-right: 1rem;
- padding: 0.8rem 2rem;
- border: none;
-}
-
-/* Skills link */
-.skills-icon{
-width: 25px;
-height: 25px;
-;
-
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 5px 0;
+  margin-right: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
 }
