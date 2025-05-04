@@ -9,15 +9,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <!-- <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-  integrity="sha512-dNmIQb6UnX9uTr+5bXM2J9abmYvOTnU7ErvIo4TeyyDWt4eLwlwGE2kQw0IP3q7G6nhujqknx1cG4jE6xEh1Tg=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/> -->
-
-  
 </head>
 <body>
   <div class="hero-section">
@@ -33,13 +24,35 @@
           <a href="#">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Services</a>
-          <a href="#">Blog ▾</a>
-          <a href="#">Pages ▾</a>
+        
+          <div class="dropdown">
+            <button class="dropbtn">Blog ▾</button>
+            <div class="dropdown-content">
+              <a href="blog.html#blog">Latest Posts</a>
+              <a href="blog-tips.html#blog-tips">Tips</a>
+              <a href="blog-news.html#blog-news">News</a>
+
+            </div>
+          </div>
+          
+          <div class="dropdown">
+            <button class="dropbtn">Pages ▾</button>
+            <div class="dropdown-content">
+              <a href="portfolio.html#portfolio">Portfolio</a>
+              <a href="testimonial.html#testimonial">Testimonials</a>
+              <a href="faq.html#faq">FAQ</a>
+
+            </div>
+          </div>
+        
           <a href="#contact-form">Contact</a>
         </nav>
-  
+        
         <div class="header-icons">
-          <button class="btn green">Hire Me</button>
+          <a href="#success-work">
+            <button class="btn green">Hire Me</button>
+          </a>
+          
           <span class="material-icons" id="search-toggle">search</span>
           <span class="material-icons" id="dark-mode-toggle">dark_mode</span>
         </div>
@@ -175,10 +188,10 @@
     </div>
   </div>
   <div class="more-services">
-    <a href="#">
+    <a href="services.html#service">
       More Services <i class="fas fa-arrow-right"></i>
     </a>
-  </div>
+  </div>  
   
 </section>
 
@@ -318,17 +331,18 @@
               </div>
             </div>
            <!-- MY SUCCESS WORK -->
-           <section class="success-work">
+           <section class="success-work" id="success-work">
             <h2>My Success Work</h2>
             <div class="project-gallery">
-              <img src="images/image1.1.jpg" alt="project 1">
-              <img src="images/image2.1.avif" alt="Project 2">
-              <img src="images/image3.1.avif" alt="Project 3">
-              <img src="images/image4.1.avif" alt="Project 4">
-              <img src="images/image5.1.webp" alt="Project 3">
-              <img src="images/image6.1.avif" alt="Project 4">
+              <img src="images/image1.1.jpg" alt="Project 1" />
+              <img src="images/image2.1.avif" alt="Project 2" />
+              <img src="images/image3.1.avif" alt="Project 3" />
+              <img src="images/image4.1.avif" alt="Project 4" />
+              <img src="images/image5.1.webp" alt="Project 5" />
+              <img src="images/image6.1.avif" alt="Project 6" />
             </div>
           </section>
+          
           <section class="contact-section">
             <div class="contact-container">
               <!-- Contact Form -->

@@ -1,8 +1,8 @@
 // Typing animation
 const phrases = [
-  "Web Developer",
-  "App Developer",
-  "UI UX Designer",
+  "Web Dev",
+  "App Dev",
+  "UI/UX Designer",
   "Full Stack"
 ];
 
@@ -191,5 +191,32 @@ window.addEventListener('DOMContentLoaded', () => {
   stats.forEach(stat => {
     const target = parseInt(stat.dataset.target);
     countUp(stat, target);
+  });
+});
+// Drop Down
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdowns = document.querySelectorAll(".dropdown");
+
+  dropdowns.forEach(dropdown => {
+    const btn = dropdown.querySelector(".dropbtn");
+    const menu = dropdown.querySelector(".dropdown-content");
+
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation(); // Prevent body click
+      // Toggle visibility
+      const isOpen = menu.style.display === "block";
+      document.querySelectorAll(".dropdown-content").forEach(dc => dc.style.display = "none");
+      menu.style.display = isOpen ? "none" : "block";
+    });
+
+    // Allow link clicks inside dropdown
+    menu.addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
+  });
+
+  // Close all dropdowns on body click
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".dropdown-content").forEach(dc => dc.style.display = "none");
   });
 });
